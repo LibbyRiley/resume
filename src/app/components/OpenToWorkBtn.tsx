@@ -29,7 +29,7 @@ const OpenToWorkButton: React.FC = () => {
         >
           <div className="bg-green-900 p-4">
             <h3 className="text-lg font-semibold p-2 ">
-              What I'm Looking For:
+              What I&apos;m Looking For:
             </h3>
             <ul className="list-disc text-sm px-4 py-2 grid gap-2">
               <li>Remote/hybrid roles</li>
