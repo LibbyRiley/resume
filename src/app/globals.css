@@ -25,3 +25,41 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+@keyframes rainbow {
+  0% {
+    color: #ffd700; /* Pastel Red */
+  }
+  20% {
+    color: #ff7f50; /* Pastel Orange */
+  }
+  45% {
+    color: #ff69b4; /* Pastel Yellow */
+  }
+  70% {
+    color: #9370db; /* Pastel Green */
+  }
+  90% {
+    color: #40e0d0; /* Pastel Blue */
+  }
+  100% {
+    color: #ffd700; /* Pastel Blue */
+  }
+}
+.animate-rainbow:hover .rainbow-letter {
+  animation: rainbow 4s linear infinite;
+  display: inline-block;
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+.blinking-element {
+  animation: blink 1s infinite; /* Adjust the animation duration as needed */
+}
