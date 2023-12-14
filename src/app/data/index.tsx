@@ -72,6 +72,7 @@ export interface Project {
   stack: string;
   image: { src: string; alt: string };
   url: string;
+  challenges: string | null;
 }
 
 export const projects: Project[] = [
@@ -86,6 +87,8 @@ export const projects: Project[] = [
       alt: "Screenshot of Prime Motive website homepage",
     },
     url: "https://primemotive.com.au/",
+    challenges:
+      "An iterative project, that underwent a redesign every 18 months for 4 years. Contentful's changing base tier limits meant we had to get clever with our content types. Animation and interactiove elements were a key feature and meant that as developers we had to  push back a number of times on performance-heavy design concepts, working with the design lead (the director and founder) to define a more efficent but just as amazing experience.",
   },
   {
     title: "Find a Broker Tool",
@@ -98,6 +101,7 @@ export const projects: Project[] = [
       alt: "Find a Broker Tool start page",
     },
     url: "https://www.cgu.com.au/find-a-broker/",
+    challenges: null,
   },
   {
     title: "Motorserve Marketing Site",
@@ -110,6 +114,7 @@ export const projects: Project[] = [
       alt: "Screenshot of Motorserve website homepage",
     },
     url: "https://motorserve.com.au/",
+    challenges: null,
   },
   {
     title: "Pathways Finder Tool",
@@ -122,6 +127,7 @@ export const projects: Project[] = [
       alt: "Pathways Finder application screenshot",
     },
     url: "https://pathways.rmit.edu.au/",
+    challenges: null,
   },
 
   {
@@ -135,5 +141,6 @@ export const projects: Project[] = [
       alt: "Screenshot of Sharecover website homepage",
     },
     url: "https://sharecover.com/",
+    challenges: null,
   },
 ];
