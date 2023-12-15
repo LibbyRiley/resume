@@ -88,7 +88,7 @@ export const projects: Project[] = [
     },
     url: "https://primemotive.com.au/",
     challenges:
-      "An iterative project, that underwent a redesign every 18 months for 4 years. Contentful's changing base tier limits meant we had to get clever with our content types. Animation and interactiove elements were a key feature and meant that as developers we had to  push back a number of times on performance-heavy design concepts, working with the design lead (the director and founder) to define a more efficent but just as amazing experience.",
+      "An iterative project, that underwent a redesign every 18 months for 4 years - pivoting designs and structure. The client (my boss) had a tendency to bring me new designs everytime and the overhead of single use custom components was outrageous. So I pushed hard for a CMS and set of reusable content components to be included to help create a process and cohesion in the design as well as reduce the design and dev effort ongoing. Contentful's changing base tier limits meant we had to get clever with our content types and be clear in establishing rules and limitations with the designers. Animation and interactive elements were a key feature and meant that as developers we navigated performance-heavy design concepts, working with the design lead (the director and founder) to define a more efficent but just as amazing experience.",
   },
   {
     title: "Find a Broker Tool",
@@ -101,7 +101,8 @@ export const projects: Project[] = [
       alt: "Find a Broker Tool start page",
     },
     url: "https://www.cgu.com.au/find-a-broker/",
-    challenges: null,
+    challenges:
+      "Client kept stopping and starting and in order to maintain momentum we were asked to build a skeleton protoype based on early requirements. We went through numerous context sessions and workshops to establish the design requirements and when I provided a spreadsheet with the data model clearly defined, this got signed off. But when the data was provided to me by the client it didn't fit the model, and there was crucial differences which meant changes to the tool logic and design. The client's legal team took a big red pen to the prototype. These things meant a significant change to the user journey and the user experience suffered a great deal as a result but the client was still very happy to get something live as this was a pilot program.",
   },
   {
     title: "Motorserve Marketing Site",
@@ -114,20 +115,22 @@ export const projects: Project[] = [
       alt: "Screenshot of Motorserve website homepage",
     },
     url: "https://motorserve.com.au/",
-    challenges: null,
+    challenges:
+      "An incredibly tight budget, the flexibility of the site is limited. I've seen some amazing configurations of Sanity that, with an upcoming rebuild scheduled, I was gunning to roll out to it.",
   },
   {
     title: "Pathways Finder Tool",
     client: "RMIT University",
     story:
       "The tool delivers a wealth of information to students' through an engrossing interactive experience, which influences many users to consider RMIT as their ‘educator of choice’",
-    stack: "React, NextJS, Prisma, GraphQL, Styled Components",
+    stack: "React, Prisma, GraphQL, Styled Components",
     image: {
       src: "project-pathways.png",
       alt: "Pathways Finder application screenshot",
     },
     url: "https://pathways.rmit.edu.au/",
-    challenges: null,
+    challenges:
+      "The orginal budget didnt extend to a user friendly data update feature so data updates were done via a manual process by us and the data was always a hot mess and there was always a lot of back and forth. Built up a relationship with the client and staff handling on their side to troubleshoot each issue, setting aside a full day for the update, responding quickly, and providing detailed error messages to help the client find the issue in their spreadsheet. Last year, after bringing concerns about the time and money being spent on this process, I lead the initial stages of a project to build a better way. I ran a couple context sessions with the client about their needs and how they gather their data, and then I mentored a mid-level developer to build an amazing backend application for consuming, validating, and publishing data updates. His solution blew it out of the park and this has empowered the client to completely own the data update process.",
   },
 
   {
@@ -141,6 +144,7 @@ export const projects: Project[] = [
       alt: "Screenshot of Sharecover website homepage",
     },
     url: "https://sharecover.com/",
-    challenges: null,
+    challenges:
+      "The initial intent was that we would handover the front-end component and the internal developers would integrate them into their DatoCMS website templates. But again the timeline got crunch on their side and they realised they wouldn’t have time to consume and integrate, while also building out the new flows for the quote platform. During the situate phase of the project there had been a context gathering session and during that we had asked about the regularity of content updates on the site and discovered that it was pretty rare, so internally I suggested we could just build the site statically in the short term. We approached the client and their internal developers with an offer that if they could get us the content for launch, we would use it to build a static generated marketing site with the new components for them to go live with.",
   },
 ];
